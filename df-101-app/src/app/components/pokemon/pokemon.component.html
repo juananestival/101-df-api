@@ -1,0 +1,17 @@
+      <mat-card *ngIf="pokemon">
+        <mat-card-header >
+          <mat-card-title><span class="name">Pokemon Name: </span>{{ pokemon.name }}</mat-card-title>
+        </mat-card-header>
+        <mat-card-subtitle>      
+        </mat-card-subtitle>
+        <mat-card-content>
+          <img
+          mat-card-image
+          src="{{ pokemon.sprites.other.dream_world.front_default }}"
+          alt="Pokemon Image"
+        />
+        </mat-card-content>
+      </mat-card>
+
+  
+  

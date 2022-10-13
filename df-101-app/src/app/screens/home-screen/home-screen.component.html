@@ -1,0 +1,6 @@
+
+<div class="col">
+        <div *ngFor="let test of createRange(); let currentElementIndex" class="col1">
+            <app-pokemon [item]="(test.toString())"></app-pokemon>
+        </div>   
+</div>
