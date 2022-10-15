@@ -1,0 +1,44 @@
+<p>chat-box works!</p>
+<button (click)="detectIntent()">d</button>
+<mat-list >
+ <mat-list-item [ngStyle]="isBot?{'display':'flex', 'flex-direction': 'column','align-items': 'flex-start'}:{'display':'flex', 'flex-direction': 'column','align-items': 'flex-end'}">
+    <div [ngStyle]="{
+        'font-size': '18px',
+        'border-radius': '32px', 
+        'background-color':'green', 
+        'max-width': '75%',
+        'color':'white',
+        'padding':'16px'
+        }">
+        Paprika
+    </div>
+      
+</mat-list-item>
+ <mat-list-item [ngStyle]="isBot?{'display':'flex', 'flex-direction': 'column','align-items': 'flex-end'}:{'display':'flex', 'flex-direction': 'column','align-items': 'flex-start'}">
+    <div [ngStyle]="{
+        'font-size': '18px',
+        'border-radius': '32px', 
+        'background-color':'gray', 
+        'max-width': '75%',
+        'color':'white',
+        'padding':'16px'
+        }">
+        Paprika
+    </div>
+      
+</mat-list-item>
+<mat-list-item [ngStyle]="isBot?{'display':'flex', 'flex-direction': 'column','align-items': 'flex-start'}:{'display':'flex', 'flex-direction': 'column','align-items': 'flex-end'}">
+    <div [ngStyle]="{
+        'font-size': '18px',
+        'border-radius': '32px', 
+        'background-color':'green', 
+        'max-width': '75%',
+        'color':'white',
+        'padding':'16px'
+        }">
+        Paprika
+    </div>
+      
+</mat-list-item>
+
+</mat-list>

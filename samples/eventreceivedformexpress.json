@@ -1,0 +1,781 @@
+{
+    "responseMessages": [
+        {
+            "text": {
+                "text": [
+                    "QUE HAY"
+                ],
+                "allowPlaybackInterruption": false
+            },
+            "message": "text"
+        },
+        {}
+    ],
+    "webhookPayloads": [
+        {
+            "fields": {}
+        }
+    ],
+    "webhookStatuses": [
+        {
+            "details": [],
+            "code": 0,
+            "message": ""
+        }
+    ],
+    "languageCode": "es",
+    "parameters": {
+        "fields": {
+            "channel": {
+                "stringValue": "chat",
+                "kind": "stringValue"
+            },
+            "last_name": {
+                "nullValue": "NULL_VALUE",
+                "kind": "nullValue"
+            },
+            "customerverified": {
+                "stringValue": "not-set",
+                "kind": "stringValue"
+            }
+        }
+    },
+    "currentPage": {
+        "transitionRoutes": [],
+        "eventHandlers": [],
+        "transitionRouteGroups": [],
+        "name": "projects/hospitality-demo-361210/locations/global/agents/fcb0a3b6-8299-4a9d-87e0-3731db89eab2/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+        "displayName": "Start Page",
+        "form": null,
+        "entryFulfillment": null
+    },
+    "intent": {
+        "trainingPhrases": [],
+        "parameters": [],
+        "labels": {},
+        "name": "projects/hospitality-demo-361210/locations/global/agents/fcb0a3b6-8299-4a9d-87e0-3731db89eab2/intents/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Welcome Intent",
+        "priority": 0,
+        "isFallback": false,
+        "description": ""
+    },
+    "intentDetectionConfidence": 1,
+    "diagnosticInfo": {
+        "fields": {
+            "Webhook Latencies (ms)": {
+                "listValue": {
+                    "values": [
+                        {
+                            "numberValue": 1560,
+                            "kind": "numberValue"
+                        }
+                    ]
+                },
+                "kind": "listValue"
+            },
+            "Triggered Transition Names": {
+                "listValue": {
+                    "values": [
+                        {
+                            "stringValue": "aedea5a9-9b3a-43c3-8206-c89685bf415c",
+                            "kind": "stringValue"
+                        },
+                        {
+                            "stringValue": "978d2fbb-5dca-4b55-9131-fd3e38c708b5",
+                            "kind": "stringValue"
+                        }
+                    ]
+                },
+                "kind": "listValue"
+            },
+            "Session Id": {
+                "stringValue": "abcd1235",
+                "kind": "stringValue"
+            },
+            "Transition Targets Chain": {
+                "listValue": {
+                    "values": [
+                        {
+                            "structValue": {
+                                "fields": {
+                                    "TargetPage": {
+                                        "stringValue": "abbd0d46-a3d3-41ee-acb2-04fbd2ec535f",
+                                        "kind": "stringValue"
+                                    }
+                                }
+                            },
+                            "kind": "structValue"
+                        },
+                        {
+                            "structValue": {
+                                "fields": {
+                                    "TargetPage": {
+                                        "stringValue": "START_PAGE",
+                                        "kind": "stringValue"
+                                    }
+                                }
+                            },
+                            "kind": "structValue"
+                        }
+                    ]
+                },
+                "kind": "listValue"
+            },
+            "Alternative Matched Intents": {
+                "listValue": {
+                    "values": [
+                        {
+                            "structValue": {
+                                "fields": {
+                                    "DisplayName": {
+                                        "stringValue": "Default Welcome Intent",
+                                        "kind": "stringValue"
+                                    },
+                                    "Active": {
+                                        "boolValue": true,
+                                        "kind": "boolValue"
+                                    },
+                                    "Score": {
+                                        "numberValue": 1,
+                                        "kind": "numberValue"
+                                    },
+                                    "Id": {
+                                        "stringValue": "00000000-0000-0000-0000-000000000000",
+                                        "kind": "stringValue"
+                                    },
+                                    "Type": {
+                                        "stringValue": "NLU",
+                                        "kind": "stringValue"
+                                    }
+                                }
+                            },
+                            "kind": "structValue"
+                        }
+                    ]
+                },
+                "kind": "listValue"
+            },
+            "Execution Sequence": {
+                "listValue": {
+                    "values": [
+                        {
+                            "structValue": {
+                                "fields": {
+                                    "Step 1": {
+                                        "structValue": {
+                                            "fields": {
+                                                "InitialState": {
+                                                    "structValue": {
+                                                        "fields": {
+                                                            "SessionParameters": {
+                                                                "structValue": {
+                                                                    "fields": {
+                                                                        "customerverified": {
+                                                                            "stringValue": "not-set",
+                                                                            "kind": "stringValue"
+                                                                        },
+                                                                        "last_name": {
+                                                                            "nullValue": "NULL_VALUE",
+                                                                            "kind": "nullValue"
+                                                                        },
+                                                                        "channel": {
+                                                                            "stringValue": "chat",
+                                                                            "kind": "stringValue"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "kind": "structValue"
+                                                            },
+                                                            "MatchedIntent": {
+                                                                "structValue": {
+                                                                    "fields": {
+                                                                        "Active": {
+                                                                            "boolValue": true,
+                                                                            "kind": "boolValue"
+                                                                        },
+                                                                        "DisplayName": {
+                                                                            "stringValue": "Default Welcome Intent",
+                                                                            "kind": "stringValue"
+                                                                        },
+                                                                        "Score": {
+                                                                            "numberValue": 1,
+                                                                            "kind": "numberValue"
+                                                                        },
+                                                                        "Id": {
+                                                                            "stringValue": "00000000-0000-0000-0000-000000000000",
+                                                                            "kind": "stringValue"
+                                                                        },
+                                                                        "Type": {
+                                                                            "stringValue": "NLU",
+                                                                            "kind": "stringValue"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "kind": "structValue"
+                                                            },
+                                                            "FlowState": {
+                                                                "structValue": {
+                                                                    "fields": {
+                                                                        "Version": {
+                                                                            "numberValue": 0,
+                                                                            "kind": "numberValue"
+                                                                        },
+                                                                        "Name": {
+                                                                            "stringValue": "Default Start Flow",
+                                                                            "kind": "stringValue"
+                                                                        },
+                                                                        "FlowId": {
+                                                                            "stringValue": "00000000-0000-0000-0000-000000000000",
+                                                                            "kind": "stringValue"
+                                                                        },
+                                                                        "PageState": {
+                                                                            "structValue": {
+                                                                                "fields": {
+                                                                                    "Status": {
+                                                                                        "stringValue": "TRANSITION_ROUTING",
+                                                                                        "kind": "stringValue"
+                                                                                    },
+                                                                                    "Name": {
+                                                                                        "stringValue": "Start Page",
+                                                                                        "kind": "stringValue"
+                                                                                    },
+                                                                                    "PageId": {
+                                                                                        "stringValue": "START_PAGE",
+                                                                                        "kind": "stringValue"
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "kind": "structValue"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "kind": "structValue"
+                                                            }
+                                                        }
+                                                    },
+                                                    "kind": "structValue"
+                                                },
+                                                "Type": {
+                                                    "stringValue": "INITIAL_STATE",
+                                                    "kind": "stringValue"
+                                                }
+                                            }
+                                        },
+                                        "kind": "structValue"
+                                    }
+                                }
+                            },
+                            "kind": "structValue"
+                        },
+                        {
+                            "structValue": {
+                                "fields": {
+                                    "Step 2": {
+                                        "structValue": {
+                                            "fields": {
+                                                "Type": {
+                                                    "stringValue": "STATE_MACHINE",
+                                                    "kind": "stringValue"
+                                                },
+                                                "StateMachine": {
+                                                    "structValue": {
+                                                        "fields": {
+                                                            "TriggeredTransitionRouteId": {
+                                                                "stringValue": "aedea5a9-9b3a-43c3-8206-c89685bf415c",
+                                                                "kind": "stringValue"
+                                                            },
+                                                            "FlowState": {
+                                                                "structValue": {
+                                                                    "fields": {
+                                                                        "Name": {
+                                                                            "stringValue": "Default Start Flow",
+                                                                            "kind": "stringValue"
+                                                                        },
+                                                                        "PageState": {
+                                                                            "structValue": {
+                                                                                "fields": {
+                                                                                    "Name": {
+                                                                                        "stringValue": "Start Page",
+                                                                                        "kind": "stringValue"
+                                                                                    },
+                                                                                    "Status": {
+                                                                                        "stringValue": "TRANSITION_ROUTING",
+                                                                                        "kind": "stringValue"
+                                                                                    },
+                                                                                    "PageId": {
+                                                                                        "stringValue": "START_PAGE",
+                                                                                        "kind": "stringValue"
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "kind": "structValue"
+                                                                        },
+                                                                        "Version": {
+                                                                            "numberValue": 0,
+                                                                            "kind": "numberValue"
+                                                                        },
+                                                                        "FlowId": {
+                                                                            "stringValue": "00000000-0000-0000-0000-000000000000",
+                                                                            "kind": "stringValue"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "kind": "structValue"
+                                                            },
+                                                            "FlowLevelTransition": {
+                                                                "boolValue": true,
+                                                                "kind": "boolValue"
+                                                            },
+                                                            "TargetPage": {
+                                                                "stringValue": "abbd0d46-a3d3-41ee-acb2-04fbd2ec535f",
+                                                                "kind": "stringValue"
+                                                            },
+                                                            "TriggeredCondition": {
+                                                                "stringValue": "true",
+                                                                "kind": "stringValue"
+                                                            },
+                                                            "TriggeredIntent": {
+                                                                "stringValue": "Default Welcome Intent",
+                                                                "kind": "stringValue"
+                                                            }
+                                                        }
+                                                    },
+                                                    "kind": "structValue"
+                                                },
+                                                "FunctionExecution": {
+                                                    "structValue": {
+                                                        "fields": {
+                                                            "Responses": {
+                                                                "listValue": {
+                                                                    "values": [
+                                                                        {
+                                                                            "structValue": {
+                                                                                "fields": {
+                                                                                    "text": {
+                                                                                        "structValue": {
+                                                                                            "fields": {
+                                                                                                "redactedText": {
+                                                                                                    "listValue": {
+                                                                                                        "values": [
+                                                                                                            {
+                                                                                                                "stringValue": "QUE HAY",
+                                                                                                                "kind": "stringValue"
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    },
+                                                                                                    "kind": "listValue"
+                                                                                                },
+                                                                                                "text": {
+                                                                                                    "listValue": {
+                                                                                                        "values": [
+                                                                                                            {
+                                                                                                                "stringValue": "QUE HAY",
+                                                                                                                "kind": "stringValue"
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    },
+                                                                                                    "kind": "listValue"
+                                                                                                }
+                                                                                            }
+                                                                                        },
+                                                                                        "kind": "structValue"
+                                                                                    },
+                                                                                    "responseType": {
+                                                                                        "stringValue": "HANDLER_PROMPT",
+                                                                                        "kind": "stringValue"
+                                                                                    },
+                                                                                    "source": {
+                                                                                        "stringValue": "VIRTUAL_AGENT",
+                                                                                        "kind": "stringValue"
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "kind": "structValue"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "kind": "listValue"
+                                                            }
+                                                        }
+                                                    },
+                                                    "kind": "structValue"
+                                                }
+                                            }
+                                        },
+                                        "kind": "structValue"
+                                    }
+                                }
+                            },
+                            "kind": "structValue"
+                        },
+                        {
+                            "structValue": {
+                                "fields": {
+                                    "Step 3": {
+                                        "structValue": {
+                                            "fields": {
+                                                "FunctionExecution": {
+                                                    "structValue": {
+                                                        "fields": {
+                                                            "Responses": {
+                                                                "listValue": {
+                                                                    "values": [
+                                                                        {
+                                                                            "structValue": {
+                                                                                "fields": {
+                                                                                    "text": {
+                                                                                        "structValue": {
+                                                                                            "fields": {
+                                                                                                "redactedText": {
+                                                                                                    "listValue": {
+                                                                                                        "values": [
+                                                                                                            {
+                                                                                                                "stringValue": "QUE HAY",
+                                                                                                                "kind": "stringValue"
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    },
+                                                                                                    "kind": "listValue"
+                                                                                                },
+                                                                                                "text": {
+                                                                                                    "listValue": {
+                                                                                                        "values": [
+                                                                                                            {
+                                                                                                                "stringValue": "QUE HAY",
+                                                                                                                "kind": "stringValue"
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    },
+                                                                                                    "kind": "listValue"
+                                                                                                }
+                                                                                            }
+                                                                                        },
+                                                                                        "kind": "structValue"
+                                                                                    },
+                                                                                    "responseType": {
+                                                                                        "stringValue": "HANDLER_PROMPT",
+                                                                                        "kind": "stringValue"
+                                                                                    },
+                                                                                    "source": {
+                                                                                        "stringValue": "VIRTUAL_AGENT",
+                                                                                        "kind": "stringValue"
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "kind": "structValue"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "kind": "listValue"
+                                                            },
+                                                            "Webhook": {
+                                                                "structValue": {
+                                                                    "fields": {
+                                                                        "Status": {
+                                                                            "stringValue": "OK",
+                                                                            "kind": "stringValue"
+                                                                        },
+                                                                        "Unauthorized FulfillmentResponse": {
+                                                                            "boolValue": false,
+                                                                            "kind": "boolValue"
+                                                                        },
+                                                                        "URL": {
+                                                                            "stringValue": "https://us-central1-hospitality-demo-361210.cloudfunctions.net/dialogflow-main-wh",
+                                                                            "kind": "stringValue"
+                                                                        },
+                                                                        "Latency": {
+                                                                            "stringValue": "1560 ms",
+                                                                            "kind": "stringValue"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "kind": "structValue"
+                                                            }
+                                                        }
+                                                    },
+                                                    "kind": "structValue"
+                                                },
+                                                "StateMachine": {
+                                                    "structValue": {
+                                                        "fields": {
+                                                            "FlowState": {
+                                                                "structValue": {
+                                                                    "fields": {
+                                                                        "Name": {
+                                                                            "stringValue": "Default Start Flow",
+                                                                            "kind": "stringValue"
+                                                                        },
+                                                                        "Version": {
+                                                                            "numberValue": 0,
+                                                                            "kind": "numberValue"
+                                                                        },
+                                                                        "FlowId": {
+                                                                            "stringValue": "00000000-0000-0000-0000-000000000000",
+                                                                            "kind": "stringValue"
+                                                                        },
+                                                                        "PageState": {
+                                                                            "structValue": {
+                                                                                "fields": {
+                                                                                    "Name": {
+                                                                                        "stringValue": "Check Channel",
+                                                                                        "kind": "stringValue"
+                                                                                    },
+                                                                                    "PageId": {
+                                                                                        "stringValue": "abbd0d46-a3d3-41ee-acb2-04fbd2ec535f",
+                                                                                        "kind": "stringValue"
+                                                                                    },
+                                                                                    "Status": {
+                                                                                        "stringValue": "ENTERING_PAGE",
+                                                                                        "kind": "stringValue"
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "kind": "structValue"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "kind": "structValue"
+                                                            }
+                                                        }
+                                                    },
+                                                    "kind": "structValue"
+                                                },
+                                                "Type": {
+                                                    "stringValue": "STATE_MACHINE",
+                                                    "kind": "stringValue"
+                                                }
+                                            }
+                                        },
+                                        "kind": "structValue"
+                                    }
+                                }
+                            },
+                            "kind": "structValue"
+                        },
+                        {
+                            "structValue": {
+                                "fields": {
+                                    "Step 4": {
+                                        "structValue": {
+                                            "fields": {
+                                                "StateMachine": {
+                                                    "structValue": {
+                                                        "fields": {
+                                                            "FlowState": {
+                                                                "structValue": {
+                                                                    "fields": {
+                                                                        "PageState": {
+                                                                            "structValue": {
+                                                                                "fields": {
+                                                                                    "PageId": {
+                                                                                        "stringValue": "abbd0d46-a3d3-41ee-acb2-04fbd2ec535f",
+                                                                                        "kind": "stringValue"
+                                                                                    },
+                                                                                    "Status": {
+                                                                                        "stringValue": "TRANSITION_ROUTING",
+                                                                                        "kind": "stringValue"
+                                                                                    },
+                                                                                    "FormFilled": {
+                                                                                        "boolValue": true,
+                                                                                        "kind": "boolValue"
+                                                                                    },
+                                                                                    "Name": {
+                                                                                        "stringValue": "Check Channel",
+                                                                                        "kind": "stringValue"
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "kind": "structValue"
+                                                                        },
+                                                                        "Name": {
+                                                                            "stringValue": "Default Start Flow",
+                                                                            "kind": "stringValue"
+                                                                        },
+                                                                        "Version": {
+                                                                            "numberValue": 0,
+                                                                            "kind": "numberValue"
+                                                                        },
+                                                                        "FlowId": {
+                                                                            "stringValue": "00000000-0000-0000-0000-000000000000",
+                                                                            "kind": "stringValue"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "kind": "structValue"
+                                                            },
+                                                            "TargetPage": {
+                                                                "stringValue": "START_PAGE",
+                                                                "kind": "stringValue"
+                                                            },
+                                                            "TriggeredCondition": {
+                                                                "stringValue": "$session.params.channel = chat",
+                                                                "kind": "stringValue"
+                                                            },
+                                                            "TriggeredTransitionRouteId": {
+                                                                "stringValue": "978d2fbb-5dca-4b55-9131-fd3e38c708b5",
+                                                                "kind": "stringValue"
+                                                            }
+                                                        }
+                                                    },
+                                                    "kind": "structValue"
+                                                },
+                                                "FunctionExecution": {
+                                                    "structValue": {
+                                                        "fields": {
+                                                            "Responses": {
+                                                                "listValue": {
+                                                                    "values": [
+                                                                        {
+                                                                            "structValue": {
+                                                                                "fields": {
+                                                                                    "text": {
+                                                                                        "structValue": {
+                                                                                            "fields": {
+                                                                                                "redactedText": {
+                                                                                                    "listValue": {
+                                                                                                        "values": [
+                                                                                                            {
+                                                                                                                "stringValue": "QUE HAY",
+                                                                                                                "kind": "stringValue"
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    },
+                                                                                                    "kind": "listValue"
+                                                                                                },
+                                                                                                "text": {
+                                                                                                    "listValue": {
+                                                                                                        "values": [
+                                                                                                            {
+                                                                                                                "stringValue": "QUE HAY",
+                                                                                                                "kind": "stringValue"
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    },
+                                                                                                    "kind": "listValue"
+                                                                                                }
+                                                                                            }
+                                                                                        },
+                                                                                        "kind": "structValue"
+                                                                                    },
+                                                                                    "source": {
+                                                                                        "stringValue": "VIRTUAL_AGENT",
+                                                                                        "kind": "stringValue"
+                                                                                    },
+                                                                                    "responseType": {
+                                                                                        "stringValue": "HANDLER_PROMPT",
+                                                                                        "kind": "stringValue"
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "kind": "structValue"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "kind": "listValue"
+                                                            }
+                                                        }
+                                                    },
+                                                    "kind": "structValue"
+                                                },
+                                                "Type": {
+                                                    "stringValue": "STATE_MACHINE",
+                                                    "kind": "stringValue"
+                                                }
+                                            }
+                                        },
+                                        "kind": "structValue"
+                                    }
+                                }
+                            },
+                            "kind": "structValue"
+                        },
+                        {
+                            "structValue": {
+                                "fields": {
+                                    "Step 5": {
+                                        "structValue": {
+                                            "fields": {
+                                                "StateMachine": {
+                                                    "structValue": {
+                                                        "fields": {
+                                                            "FlowState": {
+                                                                "structValue": {
+                                                                    "fields": {
+                                                                        "Name": {
+                                                                            "stringValue": "Default Start Flow",
+                                                                            "kind": "stringValue"
+                                                                        },
+                                                                        "FlowId": {
+                                                                            "stringValue": "00000000-0000-0000-0000-000000000000",
+                                                                            "kind": "stringValue"
+                                                                        },
+                                                                        "Version": {
+                                                                            "numberValue": 0,
+                                                                            "kind": "numberValue"
+                                                                        },
+                                                                        "PageState": {
+                                                                            "structValue": {
+                                                                                "fields": {
+                                                                                    "Status": {
+                                                                                        "stringValue": "TRANSITION_ROUTING",
+                                                                                        "kind": "stringValue"
+                                                                                    },
+                                                                                    "PageId": {
+                                                                                        "stringValue": "START_PAGE",
+                                                                                        "kind": "stringValue"
+                                                                                    },
+                                                                                    "Name": {
+                                                                                        "stringValue": "Start Page",
+                                                                                        "kind": "stringValue"
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "kind": "structValue"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "kind": "structValue"
+                                                            }
+                                                        }
+                                                    },
+                                                    "kind": "structValue"
+                                                },
+                                                "Type": {
+                                                    "stringValue": "STATE_MACHINE",
+                                                    "kind": "stringValue"
+                                                }
+                                            }
+                                        },
+                                        "kind": "structValue"
+                                    }
+                                }
+                            },
+                            "kind": "structValue"
+                        }
+                    ]
+                },
+                "kind": "listValue"
+            }
+        }
+    },
+    "match": {
+        "intent": {
+            "trainingPhrases": [],
+            "parameters": [],
+            "labels": {},
+            "name": "projects/hospitality-demo-361210/locations/global/agents/fcb0a3b6-8299-4a9d-87e0-3731db89eab2/intents/00000000-0000-0000-0000-000000000000",
+            "displayName": "Default Welcome Intent",
+            "priority": 0,
+            "isFallback": false,
+            "description": ""
+        },
+        "parameters": null,
+        "resolvedInput": "hola",
+        "matchType": "INTENT",
+        "confidence": 1,
+        "event": ""
+    },
+    "sentimentAnalysisResult": null,
+    "text": "hola",
+    "query": "text"
+}

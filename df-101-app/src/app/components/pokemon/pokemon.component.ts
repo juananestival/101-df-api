@@ -12,6 +12,7 @@ export class PokemonComponent implements OnInit {
   @Input() item = '';
   pokemon: Pokemon | undefined;
   samplePokemon = ['pikachu', 'charmander', 'raichu'];
+ 
   constructor(private pokemonService: PokemonService) { 
   }
 

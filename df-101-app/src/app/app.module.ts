@@ -10,8 +10,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input'
 import { MatCardModule } from '@angular/material/card'
+import { MatListModule } from '@angular/material/list'
 import { HttpClientModule } from '@angular/common/http';
 import { PokemonComponent } from './components/pokemon/pokemon.component';
+import { ChatBoxComponent } from './components/chat-box/chat-box.component';
 
 
 
@@ -20,7 +22,8 @@ import { PokemonComponent } from './components/pokemon/pokemon.component';
     AppComponent,
     HomeScreenComponent,
     HeaderComponent,
-    PokemonComponent
+    PokemonComponent,
+    ChatBoxComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import { PokemonComponent } from './components/pokemon/pokemon.component';
     MatIconModule,
     HttpClientModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
+    MatListModule
 
   ],
   providers: [],

@@ -78,7 +78,7 @@ import { MatIconModule } from '@angular/material/icon';
 3. npm packages
 
 ```sh
-npm i @google-cloud/dialogflow express dotenv dialogflow-v2 @google-cloud/dialogflow-cx nodemon
+npm i @google-cloud/dialogflow express dotenv dialogflow-v2 @google-cloud/dialogflow-cx cors nodemon
 ```
 https://www.npmjs.com/package/@google-cloud/dialogflow-cx
 

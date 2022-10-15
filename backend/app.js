@@ -3,7 +3,7 @@ require('dotenv').config()
 const dialogflow = require('@google-cloud/dialogflow-cx')
 const fs = require('fs')
 const PORT = process.env.PORT
-
+var cors = require('cors')
 
 const CREDENTIALS = JSON.parse(fs.readFileSync('/Users/juanantonioestival/.keys/hospitality-demo-361210-a223fae5fb99.json'))
 const projectId = CREDENTIALS.project_id;
@@ -77,7 +77,9 @@ async function detectIntentText() {
   */
  
   const app = express()
+  app.use(cors())
   app.use(express.json())
+  app.options('*', cors())
 
   app.get('/', (req, res)=>{
     res.send('Hola')
